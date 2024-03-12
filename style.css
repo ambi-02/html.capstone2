@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #e4d6e6
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("./assets/Stars\ are\ falling\,\ make\ your\ wishes.jpeg");
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+h1{
+     color: #804674;
+     font-size: 70px;
+        font-family:"segoe script";
+        font-weight: bolder;
+        font-style: normal;
+      }
+    
+h2{
+    color:#7b3e68;
+    font-family:"segoe script";
+    font-weight: lighter;
+    font-style: normal;
+}
+.pro{
+    text-decoration: underline #804674;
+    color: #cb75b0;
+}
+.intro{
+
+    align-content: center;
+    height: 100vh;
+}
+.profile img{
+    margin: 50px 100px 30px 100px;
+    overflow: clip;
+    width: 250px;
+    border-radius: 50%;
+   
+}
+.profile{
+    text-align: center;
+}
+h3{
+    color: #603452;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    margin-bottom: 100px; 
+    color:#7b3e68 ;
+}
+.skills h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.coding{
+    float: left;
+    margin: 5px;
+    border: 5px;
+}
+  hr{
+    border: dotted #155b5b 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.tact{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.studies{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    margin-bottom: 100px; 
+    color:#7b3e68 ;
+}
+.contact-me{
+    text-align: center;
+}
+.contact-message {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    margin-bottom: 100px; 
+    color:#7b3e68 ;
+}
+.btn{
+background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #cb75b0, #603452);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; 
+}
+.studies{
+    margin-left: 250px;
+}
+.footer{
+    font-weight: bolder;
+    font-size: large;
+    background-image: -webkit-linear-gradient(top, #cb75b0, #743460);
+    padding-bottom: 30px;
+}
+.typing{
+    margin: 10px;
+}
+.UI{
+    margin: 10px;
+}
